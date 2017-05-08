@@ -24,10 +24,14 @@ public class Solution {
 
     public static long getTimeMsOfGet(List list) {
         //напишите тут ваш код
+        Date dateStart = new Date();
 
         get10000(list);
 
         //напишите тут ваш код
+        Date dateEnd = new Date();
+        long timeMs = dateEnd.getTime() - dateStart.getTime();
+        return timeMs;
 
     }
 
