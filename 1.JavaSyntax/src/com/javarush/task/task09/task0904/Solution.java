@@ -14,11 +14,11 @@ public class Solution {
     }
 
     public static StackTraceElement[] method2() {
-        //
+        //напишите тут ваш код
     }
 
     public static StackTraceElement[] method3() {
-        //
+        //напишите тут ваш код
     }
 
     public static StackTraceElement[] method4() {
